@@ -40,7 +40,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/MarketPLace.png"
+                src="/MarketPlace.png"
                 alt="NFT MarketPlace"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
