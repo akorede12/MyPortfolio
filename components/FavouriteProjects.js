@@ -35,17 +35,17 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://akorede-s-nft-marketplace-git-rico-akorede12.vercel.app/"
+            href="https://github.com/akorede12/onchainVote"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/MarketPlace.png"
-                alt="NFT MarketPlace"
+                src="/OnChainVotes.png"
+                alt="OnChain Votes"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                NFT Marketplace
+                OnChain Votes
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -54,24 +54,45 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://whitelist-dapp-wheat-eta.vercel.app/"
+            href="https://github.com/akorede12/NFTicks"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/WhiteListDapp.png"
-                alt="whiteList Dapp"
+                src="/NFTicks.png"
+                alt="Nfticks App"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                WhiteList Dapp
+                NFTicks.io
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
               </h1>
             </div>
           </a>
+          {/* Single card  */}
+          <a
+            href="https://github.com/akorede12/Akorede-s_NFT-Marketplace"
+            className="w-full block col-span-3 sm:col-span-1  object-cover"
+          >
+            <div className="relative overflow-hidden shadow-2xl">
+              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div>  */}
+              <img
+                src="/Marketplace.png"
+                alt="Nft Marketplace"
+                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                NFT Marketplace
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                03
+              </h1>
+            </div>
+          </a>
+
           {/* Single card 
           <a
             href="https://manuarora.in"
@@ -92,7 +113,7 @@ export default function FavouriteProjects() {
               </h1>
             </div>
           </a>
-        */ }
+        */}
         </div>
       </div>
     </div>

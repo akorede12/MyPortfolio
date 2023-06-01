@@ -9,35 +9,68 @@ const userData = {
   projects: [
     {
       title: "NFT Marketplace",
-      link: "https://akorede-s-nft-marketplace-git-rico-akorede12.vercel.app/",
+      link: "https://github.com/akorede12/Akorede-s_NFT-Marketplace",
       imgUrl: "/Marketplace.png",
     },
     {
       title: "WhiteList Dapp",
-      link: "https://whitelist-dapp-wheat-eta.vercel.app/",
+      link: "https://github.com/akorede12/WhitelistDapp",
       imgUrl: "/WhiteListDapp.png",
-    }
+    },
+    {
+      title: "My Smart Contracts",
+      link: "https://github.com/akorede12/My-Smart-contracts",
+      imgUrl: "/contracts.png",
+    },
+    {
+      title: "Zell",
+      link: "https://github.com/akorede12/Zell",
+      imgUrl: "/zell.png",
+    },
+    {
+      title: "NFTicks",
+      link: "https://github.com/akorede12/NFTicks",
+      imgUrl: "/NFTicks.png",
+    },
+    {
+      title: "OnChain Votes",
+      link: "https://github.com/akorede12/onchainVote",
+      imgUrl: "/OnChainVotes.png",
+    },
   ],
   about: {
-    title:
-      "I'm a Lagos born techie, with a love for software development",
+    title: "I'm a Lagos born techie, with a love for software development",
     description: [
-      "fascinated with all things tech and how to use technology to improve my daily life and the lives of people around me"
+      "fascinated with all things tech and how to use technology to improve my daily life and the lives of people around me",
     ],
-    currentProject: "NFT Marketplace",
-    currentProjectUrl: "https://akorede-s-nft-marketplace-git-rico-akorede12.vercel.app/",
+    currentProject: "OnChain Votes",
+    currentProjectUrl: "https://github.com/akorede12/onchainVote",
   },
   experience: [
     {
       title: "Blockchain Developer",
-      company: "myself",
+      company: "ShoppleVerse",
       year: "2022",
-      companyLink: "https://akorede-s-nft-marketplace-git-rico-akorede12.vercel.app/",
-      desc: "Built an NFT markeplace that allows users to create nfts and sell those nfts on the marketplace",
+      companyLink: "",
+      desc: "Design and Implement blockachain solutions for the shoppleVerse platform",
+    },
+    {
+      title: "NFT Marketplace Developer",
+      company: "Self-Employed",
+      year: "2021-2022",
+      companyLink: "",
+      desc: "Developed captivating markeplace frontend utilizing javascript and React/Next.js and implemented smart contracts for Nft markeplaces",
+    },
+    {
+      title: "Operations Manager",
+      company: "ClusterLiving",
+      year: "2020-2022",
+      companyLink: "",
+      desc: "Boosted customer and service provider satisfaction by creating and implement efficient operational processes and procedures",
     },
   ],
   resumeUrl:
-    "https://docs.google.com/file/d/1sCvnC_ocB2fkZHMykygdNWEQ96K-4Xr1/edit?usp=docslist_api&filetype=msword",
+    "https://drive.google.com/file/d/1LsA8MRYQHudnjEHRN8A4pk2LC_ZRaUq7/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/tame.nation",
     twitter: "https://twitter.com/tame_nation",
