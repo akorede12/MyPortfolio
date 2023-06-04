@@ -25,7 +25,7 @@ const userData = {
     {
       title: "NFT Marketplace",
       link: "https://github.com/akorede12/Akorede-s_NFT-Marketplace",
-      imgUrl: "/Marketplace.png",
+      imgUrl: "/MarketPlace.png",
     },
     {
       title: "Zell",
