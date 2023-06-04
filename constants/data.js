@@ -8,24 +8,9 @@ const userData = {
   address: "Lagos, Nigeria.",
   projects: [
     {
-      title: "NFT Marketplace",
-      link: "https://github.com/akorede12/Akorede-s_NFT-Marketplace",
-      imgUrl: "/Marketplace.png",
-    },
-    {
-      title: "WhiteList Dapp",
-      link: "https://github.com/akorede12/WhitelistDapp",
-      imgUrl: "/WhiteListDapp.png",
-    },
-    {
-      title: "My Smart Contracts",
-      link: "https://github.com/akorede12/My-Smart-contracts",
-      imgUrl: "/contracts.png",
-    },
-    {
-      title: "Zell",
-      link: "https://github.com/akorede12/Zell",
-      imgUrl: "/zell.png",
+      title: "OnChain Votes",
+      link: "https://github.com/akorede12/onchainVote",
+      imgUrl: "/OnChainVotes.png",
     },
     {
       title: "NFTicks",
@@ -33,9 +18,34 @@ const userData = {
       imgUrl: "/NFTicks.png",
     },
     {
-      title: "OnChain Votes",
-      link: "https://github.com/akorede12/onchainVote",
-      imgUrl: "/OnChainVotes.png",
+      title: "MyPortfolio",
+      link: "https://github.com/akorede12/MyPortfolio",
+      imgUrl: "/portfolio.png",
+    },
+    {
+      title: "NFT Marketplace",
+      link: "https://github.com/akorede12/Akorede-s_NFT-Marketplace",
+      imgUrl: "/Marketplace.png",
+    },
+    {
+      title: "Zell",
+      link: "https://github.com/akorede12/Zell",
+      imgUrl: "/zell.png",
+    },
+    {
+      title: "My Smart Contracts",
+      link: "https://github.com/akorede12/My-Smart-contracts",
+      imgUrl: "/contracts.png",
+    },
+    {
+      title: "WhiteList Dapp",
+      link: "https://github.com/akorede12/WhitelistDapp",
+      imgUrl: "/WhiteListDapp.png",
+    },
+    {
+      title: "Wave Portal",
+      link: "https://github.com/akorede12/Waveportal",
+      imgUrl: "/waveportal.png",
     },
   ],
   about: {
@@ -49,24 +59,27 @@ const userData = {
   experience: [
     {
       title: "Blockchain Developer",
-      company: "ShoppleVerse",
+      company: "ShoppleVerse - current position",
       year: "2022",
       companyLink: "",
-      desc: "Design and Implement blockachain solutions for the shoppleVerse platform",
+      desc: `Designed and implemented innovative blockchain solutions for the ShoppleVerse platform, collaborating seamlessly with a multidisciplinary team.\
+      Ensured efficient and secure implementation of Ethereum smart contracts using Solidity.`,
     },
     {
       title: "NFT Marketplace Developer",
       company: "Self-Employed",
       year: "2021-2022",
       companyLink: "",
-      desc: "Developed captivating markeplace frontend utilizing javascript and React/Next.js and implemented smart contracts for Nft markeplaces",
+      desc: "Developed captivating markeplace frontend utilizing javascript and React/Next.js and implemented smart contracts for Nft markeplaces.\
+      Deconstructed and effectively implemented ERC 721 and ERC 1155 token standards for NFT marketplaces.",
     },
     {
       title: "Operations Manager",
       company: "ClusterLiving",
       year: "2020-2022",
       companyLink: "",
-      desc: "Boosted customer and service provider satisfaction by creating and implement efficient operational processes and procedures",
+      desc: "Boosted service provider and customer satisfaction by creating and implement efficient operational processes and procedures.\
+      Strengthened customer service and relations by implementing proactive measures and streamlining processes.",
     },
   ],
   resumeUrl:
