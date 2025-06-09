@@ -1,6 +1,6 @@
 const userData = {
   githubUsername: "akorede12",
-  name: "Aboaba Akorede",
+  name: "Aboaba Abdulfatah Akorede",
   designation: "Blockchain Developer, Frontend Engineer, AI Enthusiast",
   avatarUrl: "/Me2.jpg",
   email: "akoredeaboaba12@gmail.com",
