@@ -1,19 +1,60 @@
 const userData = {
   githubUsername: "akorede12",
   name: "Aboaba Akorede",
-  designation: "Blockchain Developer, Frontend Programmer",
+  designation: "Blockchain Developer, Frontend Engineer, AI Enthusiast",
   avatarUrl: "/Me2.jpg",
   email: "akoredeaboaba12@gmail.com",
-  phone: "+234",
+  phone: "+234 8113854821",
   address: "Lagos, Nigeria.",
+  certifications: "https://drive.google.com/drive/folders/1dlMuOoJWXkSL-XAlOJwlA2UC-m2APpBP?usp=drive_link",
   projects: [
     {
-      title: "OnChain Votes",
+      title: "SmartInvest",
+      link: "https://github.com/akorede12/SmartInvest",
+      imgUrl: "/SmartinvestHero.png"
+    },
+    {
+      title: "Appware",
+      link: "https://appware-frontend-v1.vercel.app/",
+      imgUrl: "/AppwareHero.png"
+    },
+    {
+      title: "BoundlessPay - Staking & Bridging Platform",
+      link: "https://www.bpaystaking.com/",
+      imgUrl: "/bpayHero.png"
+    },
+    {
+      title: "BookingBox-Tx: Home, Hostel,Short-let Booking platform",
+      link: "https://github.com/Ciphers-Harmony/BookingBox-TX",
+      imgUrl: "/bookingBoxHero.png"
+    },
+    {
+      title: "AceVote - web3 voting platform",
+      link: "https://github.com/akorede12/acevote-1",
+      imgUrl: "/AcevoteHero.jpg"
+    },
+    {
+      title: "BlocQuest - web3 gaming platform",
+      link: "https://github.com/akorede12/WinByForce",
+      imgUrl: "/BlocQuestHero.png"
+    },
+    {
+      title: "GreenVestor - Investing In Sustanability Projects",
+      link: "https://github.com/akorede12/greenvestor",
+      imgUrl: "/greenVestorHero.jpg"
+    },
+    {
+      title: "Tab Associates Company Website",
+      link: "https://github.com/akorede12/Tab_Associates",
+      imgUrl: "/TABHero.png"
+    },
+    {
+      title: "OnChain Votes - web3 voting platform",
       link: "https://github.com/akorede12/onchainVote",
       imgUrl: "/OnChainVotes.png",
     },
     {
-      title: "NFTicks",
+      title: "NFTicks - Nft ticketing platform",
       link: "https://github.com/akorede12/NFTicks",
       imgUrl: "/NFTicks.png",
     },
@@ -28,7 +69,7 @@ const userData = {
       imgUrl: "/MarketPlace.png",
     },
     {
-      title: "Zell",
+      title: "Zell - Payments platform",
       link: "https://github.com/akorede12/Zell",
       imgUrl: "/zell.png",
     },
@@ -49,21 +90,62 @@ const userData = {
     },
   ],
   about: {
-    title: "I'm a Lagos born techie, with a love for software development",
+    title: "I'm a Lagos born techie, with a love for software development, Blockchain technolgy and Artificial Intelligence",
     description: [
-      "fascinated with all things tech and how to use technology to improve my daily life and the lives of people around me",
+      "I am fascinated with all things tech and how to use technology to improve my daily life and the lives of people around me. \
+      I aspire to achieve African Excellence through the help of technolgy most especially Blockchains and AI \
+      ",
     ],
-    currentProject: "OnChain Votes",
-    currentProjectUrl: "https://github.com/akorede12/onchainVote",
+    currentProject: "APPWARE",
+    currentProjectUrl: "https://appware-frontend-v1.vercel.app/",
   },
   experience: [
     {
-      title: "Blockchain Developer",
-      company: "ShoppleVerse - current position",
+      title: "Lead Blockchain Developer (BPAY Staking & DeFi Ecosystem)",
+      company: "CELVIOS - Currrent position",
+      year: "February 2025",
+      companyLink: "",
+      desc: ` Built a Staking Platform on BNB Smart Chain (BSC) with gamified features to drive token retention and engagement:
+      Developed a Cross-chain Bridge for seamless BPAY token transfers between Base and BSC using Chainlink CCIP, Offchain Relayer and lock
+      release token pools.
+      Developed and deployed an On-Chain Token Purchase Platform, enabling users to acquire BPAY using native tokens (e.g., BNB), with real-time
+      price conversions powered by Chainlink oracles.
+      `,
+    },
+    {
+      title: "Web Development Instructor",
+      company: "Digital Dreams ICT Academy | Enugu, Nigeria",
+      year: "May 2024 - Jan 2025",
+      companyLink: "https://digitaldreamsng.com/training/25/ict-academy",
+      desc: `Lectured over 100 students on foundational and advanced web development, covering HTML, CSS, JavaScript, Git, and version control, 
+      achieving a 90% completion rate.`,
+    },
+    {
+      title: "Frontend Developer [CO-FOUNDER]",
+      company: "APPWARE",
+      year: "2023",
+      companyLink: "https://appware-frontend-v1.vercel.app/",
+      desc: `Intepret figma ui screens and convert to fluid responsive frontend website, Built out admin pages.
+      Handled all technological directives of the Company.`,
+    },
+    {
+      title: "Lead Blockchain Developer",
+      company: "ShoppleVerse",
       year: "2022",
       companyLink: "",
       desc: `Designed and implemented innovative blockchain solutions for the ShoppleVerse platform, collaborating seamlessly with a multidisciplinary team.\
       Ensured efficient and secure implementation of Ethereum smart contracts using Solidity.`,
+    },
+    {
+      title: "Operations Manager",
+      company: " Tab Associates – Architects, Engineers, Builders, Property Consultants | Lagos, Nigeria",
+      year: "2022-2023",
+      companyLink: "",
+      desc: " Managed internal logistics and workforce coordination to ensure smooth site operations. \
+      Supervised transportation logistics, ensuring timely movement of workers from office to construction sites. \
+      Oversaw the procurement and acquisition of materials for building and borehole construction, optimizing costs and ensuring quality. \
+      Acted as the liaison between on-site teams and office management, facilitating clear communication and efficient project execution. \
+      ",
     },
     {
       title: "NFT Marketplace Developer",
@@ -74,16 +156,52 @@ const userData = {
       Deconstructed and effectively implemented ERC 721 and ERC 1155 token standards for NFT marketplaces.",
     },
     {
-      title: "Operations Manager",
+      title: "Operations Manager [CO-FOUNDER]",
       company: "ClusterLiving",
       year: "2020-2022",
       companyLink: "",
       desc: "Boosted service provider and customer satisfaction by creating and implement efficient operational processes and procedures.\
-      Strengthened customer service and relations by implementing proactive measures and streamlining processes.",
+      Strengthened customer service and relations by implementing proactive measures and streamlining processes. \
+      Implemented streamlined workflows for service delivery, which enhanced productivity by 10% \
+      Led initiatives to improve customer service, increasing client retention by 15% and reducing complaint resolution time by 25% \
+      ",
+    },
+    {
+      title: "Research Manager & Developer Relations [CO-FOUNDER]",
+      company: "ACEVOTE",
+      year: "2019-2021",
+      companyLink: "",
+      desc: " Conducted in-depth research on the feasibility of small- to large-scale elections on the \
+      Ethereum blockchain, identifying key benefits over traditional voting methods in Nigeria. \
+      Analyzed the security, transparency, and cost-effectiveness of blockchain-based elections, \
+      contributing to a whitepaper and strategic ecommendations for implementation.  Coordinated with \
+      project developers, ensuring alignment with key milestones and successful feature rollouts for \
+      blockchain-based voting systems.  Facilitated developer collaboration, improving workflow efficiency\
+      and meeting launch deadlines.",
+    },
+  ],
+  extraCurricular: [
+    {
+      title:"President",
+      organization: "Anti-corruption community development service (NYSC) | Enugu, Nigeria",
+      year: "Aug 2024 - Jan 2025",
+      desc: " Led a team of 20+ in promoting anti-corruption awareness, organizing events that reached over 500 community members"
+    },
+    {
+      title:" Vice - President",
+      organization: " Anti-corruption community development service (NYSC) | Enugu, Nigeria",
+      year: "May 2024 - Aug 2024",
+      desc: "Coordinated effectively with CDS members and executives, ensuring smooth operations and high attendance at events."
+    },
+    {
+      title:"Treasurer",
+      organization: "103 Battalion Barracks Corpers Lodge [2024/25 Batch A1 Excos]",
+      year: "Nov2024 - Jan 2025",
+      desc: "Oversaw all financial transactions and supervised Development/Repair/Renovation projects."
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1LsA8MRYQHudnjEHRN8A4pk2LC_ZRaUq7/view?usp=sharing",
+    "https://drive.google.com/file/d/1nVWZT9mxBd6Iv4mw-6y45mWzOrkCugeH/view?usp=drive_link",
   socialLinks: {
     instagram: "https://instagram.com/tame.nation",
     twitter: "https://twitter.com/tame_nation",

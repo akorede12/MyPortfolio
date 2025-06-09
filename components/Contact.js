@@ -71,7 +71,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="social-icons flex flex-row space-x-8">
-              <a
+              {/* <a
                 href={userData.socialLinks.facebook}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
@@ -88,7 +88,7 @@ export default function Contact() {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </a> */}
               <a
                 href={userData.socialLinks.twitter}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
