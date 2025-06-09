@@ -11,7 +11,7 @@ const userData = {
     {
       title: "SmartInvest",
       link: "https://github.com/akorede12/SmartInvest",
-      imgUrl: "/SmartinvestHero.png"
+      imgUrl: "/SmartInvestHero.png"
     },
     {
       title: "Appware",
