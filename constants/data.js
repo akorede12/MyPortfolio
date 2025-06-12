@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "akorede12",
   name: "Aboaba Abdulfatah Akorede",
-  designation: "Blockchain Developer, Frontend Engineer, AI Enthusiast",
+  designation: "Blockchain Developer, Frontend Engineer, AI (Prompt) Engineer",
   avatarUrl: "/Me2.jpg",
   email: "akoredeaboaba12@gmail.com",
   phone: "+234 8113854821",
@@ -24,12 +24,12 @@ const userData = {
       imgUrl: "/bpayHero.png"
     },
     {
-      title: "BookingBox-Tx: Home, Hostel,Short-let Booking platform",
+      title: "BookingBox-Tx: Home, Hostel, Short-let Booking",
       link: "https://github.com/Ciphers-Harmony/BookingBox-TX",
       imgUrl: "/bookingBoxHero.png"
     },
     {
-      title: "AceVote - web3 voting platform",
+      title: "AceVote - Web3 voting platform",
       link: "https://github.com/akorede12/acevote-1",
       imgUrl: "/AcevoteHero.jpg"
     },
@@ -54,7 +54,7 @@ const userData = {
       imgUrl: "/OnChainVotes.png",
     },
     {
-      title: "NFTicks - Nft ticketing platform",
+      title: "NFTicks - Nft ticketing",
       link: "https://github.com/akorede12/NFTicks",
       imgUrl: "/NFTicks.png",
     },
@@ -113,6 +113,17 @@ const userData = {
       `,
     },
     {
+      title: "Frontend Web3 Developer",
+      company: "Vectorium.co | Estonia",
+      year: "FEB 2024 - APR 2025",
+      companyLink: "https://vectorium.co/",
+      desc: `Developed and integrated reusable frontend components using Next.js and Tailwind CSS, ensuring consistency across the dApp interface. \
+      Engineered a fully responsive, accessible navigation system to enhance user experience across desktop and mobile platforms. \
+      Collaborated closely with Rust smart contract engineers to implement seamless frontend–contract interaction, contributing to the
+      successful integration of Web3 wallet connectivity and on-chain data handling.
+      `,
+    },
+    {
       title: "Web Development Instructor",
       company: "Digital Dreams ICT Academy | Enugu, Nigeria",
       year: "May 2024 - Jan 2025",
@@ -132,7 +143,7 @@ const userData = {
       title: "Lead Blockchain Developer",
       company: "ShoppleVerse",
       year: "2022",
-      companyLink: "",
+      companyLink: "https://www.shoppleverse.com/",
       desc: `Designed and implemented innovative blockchain solutions for the ShoppleVerse platform, collaborating seamlessly with a multidisciplinary team.\
       Ensured efficient and secure implementation of Ethereum smart contracts using Solidity.`,
     },
@@ -189,7 +200,7 @@ const userData = {
     },
     {
       title:" Vice - President",
-      organization: " Anti-corruption community development service (NYSC) | Enugu, Nigeria",
+      organization: "Anti-corruption community development service (NYSC) | Enugu, Nigeria",
       year: "May 2024 - Aug 2024",
       desc: "Coordinated effectively with CDS members and executives, ensuring smooth operations and high attendance at events."
     },
@@ -201,7 +212,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1nVWZT9mxBd6Iv4mw-6y45mWzOrkCugeH/view?usp=drive_link",
+    "https://drive.google.com/file/d/1KJduD0ZvcztDKwMaPUG6Y03DMnkP-QZr/view?usp=drive_link",
   socialLinks: {
     instagram: "https://instagram.com/tame.nation",
     twitter: "https://twitter.com/tame_nation",
