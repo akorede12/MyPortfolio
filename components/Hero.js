@@ -10,8 +10,8 @@ export default function Hero() {
      {/* Image container */}
      <div className="lg:block relative w-full flex flex-col items-center justify-center mx-auto mt-2">
         <div className="w-full flex flex-col items-center">
-          <img src={userData.avatarUrl} height={500} width={500} alt="avatar" className="shadow rounded-xl"/>
-          <div className="flex flex-row justify-center mt-4">
+          <img src={userData.avatarUrl} height={300} width={300} alt="avatar" className="shadow rounded-xl"/>
+          <div className="flex flex-row justify-center mt-2">
             <div className="flex flex-row space-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
       </div>
       {/* Text container */}
-      <div className="w-full flex flex-row gap-2 items-center justify-center mx-auto text-center lg:p-20">
+      <div className="w-full flex flex-row gap-2 items-center justify-center mx-auto text-center lg:p-20 md:-mt-10 sm:mt-4">
         <RoughNotationGroup show={true}>
           <div className="flex flex-col items-center">
           <RainbowHighlight color={colors[0]}>
@@ -73,11 +73,11 @@ export default function Hero() {
           </div>
         </RoughNotationGroup>
       </div>
-      <h1 className="text-center mt-5 w-1/2 sm:text-base">
+      {/* <h1 className="text-center md:w-1/2 mt-12 sm:w-full">
         Experienced Fullstack (Web3) Blockchain Developer with over four years of expertise in designing, deploying, and optimizing Ethereum smart contracts,
         Solana smart contracts and decentralized applications. Skilled in Solidity, Rust, JavaScript, and cutting-edge Web3 technologies, with a proven track
         record of building in blockchain ecosystems, enhancing user experience, and ensuring long-term product scalability.
-      </h1>
+      </h1> */}
     </div>
   );
 }
