@@ -1,0 +1,28 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+"scripts": {
+  "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
+  "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
+  "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider next start"
+},
+
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "10.x",
+    "next-themes": "0.0.15",
+    "react": "17.x",
+    "react-dom": "17.x",
+    "react-rough-notation": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "engines": {
+  "node": "18.x"
+  }
+}
