@@ -1,15 +1,26 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@components/*": ["components/*"],
+//       "@data/*": ["data/*"],
+//       "@utils/*": ["utils/*"],
+//       "@layouts/*": ["layouts/*"],
+//       "@lib/*": ["lib/*"],
+//       "@styles/*": ["styles/*"],
+//       "@hooks/*": ["hooks/*"],
+//       "@constants/*": ["constants/*"]
+//     }
+//   }
+// }
+
 {
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["components/*"],
-      "@data/*": ["data/*"],
-      "@utils/*": ["utils/*"],
-      "@layouts/*": ["layouts/*"],
-      "@lib/*": ["lib/*"],
-      "@styles/*": ["styles/*"],
-      "@hooks/*": ["hooks/*"],
-      "@constants/*": ["constants/*"]
+      "@lib/*": ["./lib/*"],
+      "@components/*": ["./components/*"],
+      "@constants/*": ["./constants/*"]
     }
   }
 }

@@ -1,19 +1,23 @@
+
+"use client";
+
 import React from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 export default function ContainerBlock({ children, ...customMeta }) {
-  const router = useRouter();
+  const pathname = usePathname();
 
   const meta = {
-    title: "Aboaba Akorede - Blockchain Developer, Frontedn Engineer",
+    title: "Aboaba Akorede - Blockchain Developer, Frontend Engineer",
     description: `A citizen of the web3 metaverse`,
     image: "/Me2.jpg",
     type: "website",
     ...customMeta,
   };
+
   return (
     <div>
       <Head>
@@ -22,11 +26,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`https://yourwebsite.com${pathname}`}
         />
         <link
           rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
+          href={`https://yourwebsite.com${pathname}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Aboaba Akorede" />
@@ -42,7 +46,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 w-full">
+      <main className="">
         <Navbar />
         <div>{children}</div>
         <Footer />

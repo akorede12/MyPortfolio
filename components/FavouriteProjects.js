@@ -1,134 +1,71 @@
 import React from "react";
 import Link from "next/link";
+import { ProjectCard } from "./ProjectCard";
 
 export default function FavouriteProjects() {
   return (
-    <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
+    <div className="bg-[#F1F1F1] dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
+        <header className="flex flex-col md:flex-row justify-between items-center pt-10 mx-10 md:my-20 lg:my-0">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
             Favourite Projects
           </h1>
-          <Link href="/projects">
-            <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-up-right-square"
-                stroke="4"
-                strokeWidth="4"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
-                />
-              </svg>
-              <p>View all</p>
-            </a>
+          <Link href="/projects" className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center text-gray-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-arrow-up-right-square"
+              stroke="4"
+              strokeWidth="4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+            <p className="text-gray-700">View all</p>
           </Link>
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-4 sm:grid-cols-1 gap-8 lg:-mt-8 pb-40">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-8 lg:-mt-8 pb-40 px-4 md:px-0">
           {/* Single card */}
-          <a
-            href="https://www.theopenprotocol.com/"
-            className="w-full block col-span-1 sm:col-span-2 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <img
-                src="/topx.png"
-                alt="topx"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                The Open Protocol
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                1
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://github.com/akorede12/SmartInvest"
-            className="w-full block col-span-1 sm:col-span-2 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <img
-                src="/SmartInvestHero.png"
-                alt="SmartInvest"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Smart Invest
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-10 font-bold text-xl">
-                2
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://www.bpaystaking.com/"
-            className="w-full block col-span-1 sm:col-span-2 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/bpayHero.png"
-                alt="BoundlessPay"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                BoundlessPay - Staking & Bridging Platform
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-10 font-bold text-xl">
-                3
-              </h1>
-            </div>
-          </a>
-          {/* Single card  */}
-          <a
-            href="https://appware-frontend-v1.vercel.app/"
-            className="w-full block col-span-1 sm:col-span-2  object-cover"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div>  */}
-              <img
-                src="/AppwareHero.png"
-                alt="APPWARE"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                APPWARE
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-10 font-bold text-xl">
-                4
-              </h1>
-            </div>
-          </a>
-          <a
-            href="https://github.com/akorede12/onchainVote"
-            className="w-full block col-span-1 sm:col-span-2 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <img
-                src="/OnChainVotes.png"
-                alt="OnChain Votes"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                OnChain Votes
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                5
-              </h1>
-            </div>
-          </a>
+          <ProjectCard
+            title="The Open Protocol"
+            link="https://www.theopenprotocol.com/"
+            imgUrl="/topx.png"
+            number="1"
+          />
+
+          <ProjectCard
+            title="APPWARE"
+            link="https://appware-frontend-v1.vercel.app/"
+            imgUrl="/AppwareHero.png"
+            number="2"
+          />
+
+          <ProjectCard
+            title="SMART INVEST"
+            link="https://github.com/akorede12/SmartInvest"
+            imgUrl="/SmartInvestHero.png"
+            number="3"
+          />
+
+          <ProjectCard
+            title="BoundlessPay - Staking & Bridging Platform"
+            link="https://www.bpaystaking.com/"
+            imgUrl="/bpayHero.png"
+            number="4"
+          />
+          <ProjectCard
+            title="OnChain Votes"
+            link="https://github.com/akorede12/onchainVote"
+            imgUrl="/OnChainVotes.png"
+            number="5"
+          />
         </div>
       </div>
     </div>
