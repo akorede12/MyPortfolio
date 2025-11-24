@@ -4,8 +4,6 @@ import Projects from "../../components/Projects";
 
 export default function projects() {
   return (
-    // <ContainerBlock title="Projects - Aboaba Akorede">
     <Projects />
-    // </ContainerBlock>
   );
 }

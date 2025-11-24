@@ -2,15 +2,16 @@ import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
+import Image from "next/image";
 
 export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
   return (
-    <div className="bg-white dark:bg-gray-800 flex flex-col items-center justify-center mx-auto overflow-hidden pb-10">
+    <div className="bg-white dark:bg-gray-800 flex flex-col items-center justify-center mx-auto overflow-hidden pb-4">
       {/* Image container */}
       <div className="lg:block relative w-full flex flex-col items-center justify-center mx-auto mt-2">
         <div className="w-full flex flex-col items-center">
-          <img src={userData.avatarUrl} height={300} width={300} alt="avatar" className="shadow rounded-xl" />
+          <Image src={userData.avatarUrl} height={400} width={400} alt="avatar" className="shadow rounded-xl" />
           <div className="flex flex-row justify-center mt-2">
             <div className="flex flex-row space-x-4">
               <svg

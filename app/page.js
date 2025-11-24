@@ -22,16 +22,11 @@ export default async function Home() {
   const repositories = await getGitHubData();
 
   return (
-    // <ContainerBlock
-    //   title="Aboaba Akorede - Blockchain Developer, Frontend Programmer, AI Engineer"
-    //   description="Aboaba Akorede's portfolio website."
-    // >
     <>
       <Hero />
       <Skills />
       <FavouriteProjects />
       <LatestCode repositories={repositories} />
-      {/* </ContainerBlock> */}
     </>
   );
 }
