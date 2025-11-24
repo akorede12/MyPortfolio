@@ -28,7 +28,7 @@ export default function Skills() {
 
                 <div
                     id="Blockchain"
-                    className={`relative bg-white/10 backdrop-blur-md border shadow-2xl border-white/20 rounded-2xl p-5 w-full sm:pb-5 h-[450px] overflow-hidden text-[16px] font-bold transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
+                    className={`relative bg-white/10 backdrop-blur-md border shadow-2xl border-white/20 rounded-2xl p-5 w-full sm:pb-5 h-auto md:h-[450px] overflow-hidden text-[16px] font-bold transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
                     onMouseEnter={() => setHoveredSkill("Blockchain")}
                     onMouseLeave={() => setHoveredSkill(null)}
                 >
@@ -70,7 +70,7 @@ export default function Skills() {
 
                 <div
                     id="Frontend"
-                    className={`relative bg-white/10 backdrop-blur-md border shadow-2xl border-white/20 rounded-2xl p-5 w-full sm:pb-5 h-[450px] overflow-hidden text-[16px] font-bold transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
+                    className={`relative bg-white/10 backdrop-blur-md border shadow-2xl border-white/20 rounded-2xl p-5 w-full sm:pb-5 h-auto md:h-[450px] overflow-hidden text-[16px] font-bold transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
                     style={{ transitionDelay: '300ms' }}
                     onMouseEnter={() => setHoveredSkill("Frontend")}
                     onMouseLeave={() => setHoveredSkill(null)}
@@ -102,11 +102,11 @@ export default function Skills() {
                     >
                         <h2 className="font-bold text-sm my-1">Programming Languages:</h2>
                         <p className="font-semibold">JavaScript (ES6+), TypeScript, HTML & CSS</p>
+                        <h2 className="font-bold  my-1">Node.js</h2>
                         <h2 className="font-bold text-sm my-1">Frontend & UI Development:</h2>
                         <p>React, Next.js, Material UI, Tailwind CSS</p>
                         <h2 className="font-bold text-sm my-1">Design & Prototyping:</h2>
-                        <p> Figma, Adobe Creative Cloud (Photoshop, Illustrator), Canva</p>
-                        <h2 className="font-bold  my-2">Node.js</h2>
+                        <p> Figma, Photoshop, Illustrator, Canva</p>
                         <h2 className="font-bold text-sm my-1">Version Control & Collaboration:</h2>
                         <p> Git, GitHub, GitBucket, GitLab</p>
                         <h1 className="text-[70px] font-bold text-right">Web.</h1>
