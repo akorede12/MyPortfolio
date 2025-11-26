@@ -18,6 +18,27 @@ export default function Skills() {
         return () => observer.disconnect();
     }, []);
 
+    useEffect(() => {
+        let timeouts = [];
+        if (isVisible) {
+            // Sequence: Blockchain -> Frontend -> AI -> Reset
+            // Start shortly after appearing
+            timeouts.push(setTimeout(() => setHoveredSkill("Blockchain"), 1000));
+            // Move to next after 2 seconds
+            timeouts.push(setTimeout(() => setHoveredSkill("Frontend"), 3000));
+            // Move to next after another 2 seconds
+            timeouts.push(setTimeout(() => setHoveredSkill("AI"), 5000));
+            // Reset after another 2 seconds
+            timeouts.push(setTimeout(() => setHoveredSkill(null), 7000));
+        } else {
+            setHoveredSkill(null);
+        }
+
+        return () => {
+            timeouts.forEach(clearTimeout);
+        };
+    }, [isVisible]);
+
     return (
         <div className="bg-white p-5 bg-white dark:bg-gray-800 box-content">
             <div className="md:text-left sm:text-center text-6xl sm:pt-5 font-bold text-gray-700 dark:text-gray-200 md:text-9xl shadow-lg">

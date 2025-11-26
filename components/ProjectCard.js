@@ -2,9 +2,13 @@ import React from "react";
 import Link from "next/link";
 
 
-export const ProjectCard = ({ title, link, imgUrl, number }) => {
+export const ProjectCard = ({ title, projectId, imgUrl, number }) => {
   return (
-    <Link href={link} className="w-full block shadow-2xl">
+    <Link
+      href={`/projects/${projectId}`}
+      className="w-full block shadow-2xl"
+    >
+
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img

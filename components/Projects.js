@@ -1,5 +1,5 @@
 import React from "react";
-import userData from "@constants/data";
+import ProjectData from "@constants/projects";
 import { ProjectCard } from "./ProjectCard";
 
 export default function Projects() {
@@ -13,13 +13,14 @@ export default function Projects() {
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          {userData.projects.map((proj, idx) => (
+          {ProjectData.map((proj, idx) => (
             <ProjectCard
               key={idx}
-              title={proj.title}
-              link={proj.link}
-              imgUrl={proj.imgUrl}
+              title={proj.name}
+              link={`/projects/${proj.id}`}
+              imgUrl={proj.mainImage}
               number={`${idx + 1}`}
+              projectId={proj.id}
             />
           ))}
         </div>

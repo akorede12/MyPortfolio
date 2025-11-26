@@ -35,34 +35,31 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <ProjectCard
             title="The Open Protocol"
-            link="https://www.theopenprotocol.com/"
+            projectId="1"
             imgUrl="/topx.png"
             number="1"
           />
-
           <ProjectCard
             title="APPWARE"
-            link="https://appware-frontend-v1.vercel.app/"
+            projectId="3"
             imgUrl="/AppwareHero.png"
             number="2"
           />
-
           <ProjectCard
             title="SMART INVEST"
-            link="https://github.com/akorede12/SmartInvest"
+            projectId="2"
             imgUrl="/SmartInvestHero.png"
             number="3"
           />
-
           <ProjectCard
             title="BoundlessPay - Staking & Bridging Platform"
-            link="https://www.bpaystaking.com/"
+            projectId="5"
             imgUrl="/bpayHero.png"
             number="4"
           />
           <ProjectCard
             title="OnChain Votes"
-            link="https://github.com/akorede12/onchainVote"
+            projectId="11"
             imgUrl="/OnChainVotes.png"
             number="5"
           />

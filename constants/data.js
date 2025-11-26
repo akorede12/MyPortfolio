@@ -202,19 +202,19 @@ const userData = {
   ],
   extraCurricular: [
     {
-      title:"President",
+      title: "President",
       organization: "Anti-corruption community development service (NYSC) | Enugu, Nigeria",
       year: "Aug 2024 - Jan 2025",
       desc: " Led a team of 20+ in promoting anti-corruption awareness, organizing events that reached over 500 community members"
     },
     {
-      title:" Vice - President",
+      title: " Vice - President",
       organization: "Anti-corruption community development service (NYSC) | Enugu, Nigeria",
       year: "May 2024 - Aug 2024",
       desc: "Coordinated effectively with CDS members and executives, ensuring smooth operations and high attendance at events."
     },
     {
-      title:"Treasurer",
+      title: "Treasurer",
       organization: "103 Battalion Barracks Corpers Lodge [2024/25 Batch A1 Excos]",
       year: "Nov2024 - Jan 2025",
       desc: "Oversaw all financial transactions and supervised Development/Repair/Renovation projects."
