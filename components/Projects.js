@@ -7,7 +7,7 @@ export default function Projects() {
 
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filters = ["All", "Blockchain", "Frontend", "AI"];
+  const filters = ["All", "Blockchain", "Frontend", "A.I"];
 
   const filteredProjects = activeFilter === "All"
     ? ProjectData
@@ -27,7 +27,7 @@ export default function Projects() {
           <button
             key={filter}
             onClick={() => setActiveFilter(filter)}
-            className={`px-4 py-2 rounded-lg transition-colors ${activeFilter === filter
+            className={`px-6 text-lg py-4 rounded-xl transition-colors ${activeFilter === filter
               ? "bg-blue-600 text-white"
               : "bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600"
               }`}

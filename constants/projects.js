@@ -3,7 +3,7 @@ const sampleProject = {
     name: 'E-Commerce Platform',
     description: 'A modern e-commerce platform built with Next.js and Tailwind CSS',
     mainImage: '/bpayHero.png',
-    labels: ["Blockchain", "Frontend", "AI"],
+    labels: ["Blockchain", "Frontend", "A.I"],
     screenshots: [
         '/TABHero.png',
         '/bpayHero.png',
