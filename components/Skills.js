@@ -23,13 +23,13 @@ export default function Skills() {
         if (isVisible) {
             // Sequence: Blockchain -> Frontend -> AI -> Reset
             // Start shortly after appearing
-            timeouts.push(setTimeout(() => setHoveredSkill("Blockchain"), 1000));
+            timeouts.push(setTimeout(() => setHoveredSkill("Blockchain"), 1500));
             // Move to next after 2 seconds
-            timeouts.push(setTimeout(() => setHoveredSkill("Frontend"), 3000));
+            timeouts.push(setTimeout(() => setHoveredSkill("Frontend"), 2500));
             // Move to next after another 2 seconds
-            timeouts.push(setTimeout(() => setHoveredSkill("AI"), 5000));
+            timeouts.push(setTimeout(() => setHoveredSkill("AI"), 3500));
             // Reset after another 2 seconds
-            timeouts.push(setTimeout(() => setHoveredSkill(null), 7000));
+            timeouts.push(setTimeout(() => setHoveredSkill(null), 5000));
         } else {
             setHoveredSkill(null);
         }
