@@ -3,6 +3,7 @@ const sampleProject = {
     name: 'E-Commerce Platform',
     description: 'A modern e-commerce platform built with Next.js and Tailwind CSS',
     mainImage: '/bpayHero.png',
+    labels: ["Blockchain", "Frontend", "AI"],
     screenshots: [
         '/TABHero.png',
         '/bpayHero.png',
@@ -54,6 +55,7 @@ const ProjectData = [
         name: 'The Open Protocol',
         description: 'hybrid trading infrastructure',
         mainImage: '/topx.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/topx.png',
             '/topx2.png',
@@ -105,6 +107,7 @@ const ProjectData = [
         name: 'A Token Presale Waitlist',
         description: 'A waitlist page for a Token presale',
         mainImage: '/waitlist1.png',
+        labels: ["Frontend"],
         screenshots: [
             '/waitlist1.png',
             '/waitlist2.png',
@@ -148,6 +151,7 @@ const ProjectData = [
         name: 'SmartInvest',
         description: 'Cross-chain Crypto Currency hedging platform',
         mainImage: '/SmartInvestHero.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/SmartInvestHero.png',
         ],
@@ -182,6 +186,7 @@ const ProjectData = [
         name: 'Appware',
         description: 'Social Application Platform',
         mainImage: '/AppwareHero.png',
+        labels: ["Frontend"],
         screenshots: [
             '/AppwareHero.png',
         ],
@@ -225,6 +230,7 @@ const ProjectData = [
         name: 'Shoppleverse: E-Commerce Platform',
         description: 'A modern web3 e-commerce platform',
         mainImage: '/shopple1.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/shopple1.png',
             '/shopple2.png',
@@ -289,6 +295,7 @@ const ProjectData = [
         name: 'Boundless Pay',
         description: 'Cross-chain DEFI platform: Staking Bridging and Token Purchase',
         mainImage: '/bpayHero.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/bpay1.png',
             '/bpay2.png',
@@ -346,6 +353,7 @@ const ProjectData = [
         name: 'Presale Token Sale Modal',
         description: 'Presale token sale modal built with Next.js, wagmi, ethers and Tailwind CSS',
         mainImage: '/salemodal.png',
+        labels: ["Blockchain, Frontend"],
         screenshots: [
             '/salemodal1.png',
             '/salemodal2.png',
@@ -399,6 +407,7 @@ const ProjectData = [
         name: 'Tokenizer Blog',
         description: 'A blog built with Next.js and Tailwind CSS',
         mainImage: '/blog1.png',
+        labels: ["Frontend"],
         screenshots: [
             '/blog1.png',
             '/blog2.png',
@@ -443,6 +452,7 @@ const ProjectData = [
         name: 'Content Management System',
         description: 'Content Management System built with Next.js and Tailwind CSS',
         mainImage: '/cms1.png',
+        labels: ["Frontend"],
         screenshots: [
             '/cms1.png',
             '/cms2.png',
@@ -495,6 +505,7 @@ const ProjectData = [
         name: 'Presale Token Dashboard',
         description: 'A comprehensive cryptocurrency presale management platform built with Next.js, featuring separate user and admin dashboards for managing token sales across multiple phases.',
         mainImage: '/dash1.png',
+        labels: ["Blockchain", "Frontend"],
         screenshots: [
             '/dash1.png',
             '/dash2.png',
@@ -544,6 +555,7 @@ const ProjectData = [
         name: 'My Smart Contracts',
         description: 'My solidity smart contracts',
         mainImage: '/contracts.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/contracts.png',
         ],
@@ -577,6 +589,7 @@ const ProjectData = [
         name: 'OnChain Votes',
         description: 'Secure and Transparent Voting Made Easy',
         mainImage: '/OnchainVotes.png',
+        labels: ["Blockchain", "Frontend"],
         screenshots: [
             '/OnchainVotes.png',
         ],
@@ -617,6 +630,7 @@ const ProjectData = [
         name: 'NFTicks',
         description: 'A secure way to purchase tickets to your favourite events.',
         mainImage: '/NFTicks.png',
+        labels: ["Blockchain", "Frontend"],
         screenshots: [
             '/NFTicks.png',
         ],
@@ -662,6 +676,7 @@ const ProjectData = [
         name: 'My Portfolio',
         description: "Akorede's Portfolio website",
         mainImage: '/portfolio.png',
+        labels: ["Frontend"],
         screenshots: [
             '/portfolio1.png',
             '/portfolio2.png',
@@ -701,6 +716,7 @@ const ProjectData = [
         name: 'NFT Marketplace',
         description: 'A modern e-commerce platform built with Next.js and Tailwind CSS',
         mainImage: '/MarketPlace.png',
+        labels: ["Blockchain", "Frontend"],
         screenshots: [
             '/MarketPlace.png',
         ],
@@ -741,6 +757,7 @@ const ProjectData = [
         name: 'BookingBox-Tx: Home, Hostel, Short-let Booking',
         description: 'Accomodation (Home, Hostel, Short-let) Booking onChain',
         mainImage: "/bookingBoxHero.png",
+        labels: ["Blockchain"],
         screenshots: [
             '/bookingBoxHero.png',
         ],
@@ -791,6 +808,7 @@ const ProjectData = [
         name: 'BlocQuest',
         description: 'A blockchain gamefi for learning and earning',
         mainImage: '/blocQuestHero.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/blocQuestHero.png',
         ],
@@ -850,6 +868,7 @@ const ProjectData = [
         name: 'Greenvestor',
         description: 'Greenvestor is a web-based platform that operates on the web3 DEFI (Decentralized Finance) technology. It aims to connect individuals who want to borrow capital for sustainable projects with those who are interested in investing in these projects',
         mainImage: '/greenVestorHero.jpg',
+        labels: ["Blockchain"],
         screenshots: [
             '/greenVestorHero.jpg',
         ],
@@ -903,6 +922,7 @@ const ProjectData = [
         name: 'TAB Associates',
         description: 'Architects, Builders, Designers, Contractors.',
         mainImage: '/TABHero.png',
+        labels: ["Frontend"],
         screenshots: [
             '/TABHero.png',
         ],
@@ -939,6 +959,7 @@ const ProjectData = [
         name: 'Acevote',
         description: 'OnChain Voting Platform',
         mainImage: '/AcevoteHero.jpg',
+        labels: ["Blockchain"],
         screenshots: [
             '/AcevoteHero.jpg',
         ],
@@ -981,6 +1002,7 @@ const ProjectData = [
         name: 'Zell',
         description: 'NFT membership platform for e-commerce sellers',
         mainImage: '/zell.png',
+        labels: ["Payments"],
         screenshots: [
             '/zell.png',
         ],
@@ -1028,6 +1050,7 @@ const ProjectData = [
         name: 'Whitelist Dapp',
         description: 'Whitelist Dapp built with Next.js and Tailwind CSS',
         mainImage: '/WhiteListDapp.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/WhiteListDapp.png',
         ],
@@ -1067,6 +1090,7 @@ const ProjectData = [
         name: 'Wave Portal',
         description: 'Connect Ethereum wallet using MetaMask, send personalized messages, and wave to other users',
         mainImage: '/wavePortal.png',
+        labels: ["Blockchain"],
         screenshots: [
             '/wavePortal.png',
         ],
