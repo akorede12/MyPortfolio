@@ -16,7 +16,7 @@ export default function FavouriteProjects() {
               width="16"
               height="16"
               fill="currentColor"
-              className="bi bi-arrow-up-right-square"
+              className="bi bi-arrow-up-right-square text-gray-700"
               stroke="4"
               strokeWidth="4"
               viewBox="0 0 16 16"
