@@ -588,13 +588,13 @@ const ProjectData = [
         id: '11',
         name: 'OnChain Votes',
         description: 'Secure and Transparent Voting Made Easy',
-        mainImage: '/OnchainVotes.png',
+        mainImage: '/OnChainVotes.png',
         labels: ["Blockchain", "Frontend"],
         screenshots: [
-            '/OnchainVotes.png',
+            '/OnChainVotes.png',
         ],
         videos: [
-            '/OnchainVotes.png',
+            '/OnChainVotes.png',
         ],
         about: 'Experience the future of voting with OnChain Votes. My Next.js dapp that interacts with an EVM Election/Voting smart contract to enable seamless and secure elections. Create elections, add voters, define vote options, and cast votes effortlessly. Gain access to election details, allowed voters, and comprehensive reports on voter participation and choices. With OnChain Votes, you can trust in the integrity of your elections, thanks to a built-in "checker" library that validates vote options.',
         links: {
@@ -807,13 +807,13 @@ const ProjectData = [
         id: '8',
         name: 'BlocQuest',
         description: 'A blockchain gamefi for learning and earning',
-        mainImage: '/blocQuestHero.png',
+        mainImage: '/BlocQuestHero.png',
         labels: ["Blockchain"],
         screenshots: [
-            '/blocQuestHero.png',
+            '/BlocQuestHero.png',
         ],
         videos: [
-            '/blocQuestHero.png',
+            '/BlocQuestHero.png',
         ],
         about: 'An Gamified Onchain Platform for learning and earning',
         links: {
@@ -1089,13 +1089,13 @@ const ProjectData = [
         id: '17',
         name: 'Wave Portal',
         description: 'Connect Ethereum wallet using MetaMask, send personalized messages, and wave to other users',
-        mainImage: '/wavePortal.png',
+        mainImage: '/waveportal.png',
         labels: ["Blockchain"],
         screenshots: [
-            '/wavePortal.png',
+            '/waveportal.png',
         ],
         videos: [
-            '/wavePortal.png',
+            '/waveportal.png',
         ],
         about: "This project is a React application that allows users to connect their Ethereum wallet using MetaMask, send personalized messages, and wave to other users. It interacts with a deployed smart contract on the Ethereum blockchain, allowing users to store and retrieve waves containing the sender's address, timestamp, and message.The application provides a user- friendly interface for engaging with the Ethereum network and visualizing the waves sent by various users. It was developed following instructions from buildspace's build-solidity-web3-app course.",
         links: {
