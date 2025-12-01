@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 
 export default function Skills() {
@@ -46,10 +45,9 @@ export default function Skills() {
             </div>
 
             <div id="cards" ref={domRef} className="w-full flex flex-col md:flex-row lg:flex-row text-[14px] text-gray-600 dark:text-gray-100 py-10 gap-5 justify-between px-5">
-
-                <div
-                    id="Blockchain"
-                    className={`relative bg-white/10 backdrop-blur-md border shadow-2xl border-white/20 rounded-2xl p-5 w-full sm:pb-5 h-auto md:h-[450px] overflow-hidden text-[16px] font-bold transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
+                <div id="Blockchain"
+                    className={`relative bg-white/10 backdrop-blur-md border shadow-2xl border-white/20 rounded-2xl p-5 w-full sm:pb-5 h-auto md:h-[450px] overflow-hidden text-[16px] font-bold transition-all duration-1000
+                        ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
                     onMouseEnter={() => setHoveredSkill("Blockchain")}
                     onMouseLeave={() => setHoveredSkill(null)}
                 >
@@ -89,8 +87,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div
-                    id="Frontend"
+                <div id="Frontend"
                     className={`relative bg-white/10 backdrop-blur-md border shadow-2xl border-white/20 rounded-2xl p-5 w-full sm:pb-5 h-auto md:h-[450px] overflow-hidden text-[16px] font-bold transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}
                     style={{ transitionDelay: '300ms' }}
                     onMouseEnter={() => setHoveredSkill("Frontend")}
@@ -167,7 +164,6 @@ export default function Skills() {
                         <h1 className="text-[80px] font-bold text-right">AI.</h1>
                     </div>
                 </div>
-
             </div>
         </div >
     )
