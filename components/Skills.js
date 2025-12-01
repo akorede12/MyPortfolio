@@ -74,7 +74,7 @@ export default function Skills() {
 
                     {/* Tools Section - Hidden by default, slides up on hover */}
                     <div
-                        className={`absolute inset-0 bg-white dark:bg-white/5 backdrop-blur-md p-5 transition-transform duration-350 ease-in-out rounded-2xl text-[20px]
+                        className={`block absolute inset-0 bg-white dark:bg-white/5 backdrop-blur-md p-5 transition-transform duration-350 ease-in-out rounded-2xl text-[20px]
           ${hoveredSkill === "Blockchain" ? 'translate-y-0' : 'translate-y-full'}`}
                     >
                         <h2 className="font-bold text-sm my-1">Programming Languages:</h2>
