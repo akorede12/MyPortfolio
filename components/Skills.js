@@ -52,7 +52,7 @@ export default function Skills() {
                     onMouseLeave={() => setHoveredSkill(null)}
                 >
                     {/* Main Content */}
-                    <div className={`transition-all duration-350 ease-in-out ${hoveredSkill === "Blockchain" ? '-translate-y-full opacity-0' : 'opacity-100 translate-y-0'}`}>
+                    <div className={`transition-all duration-350 ease-in-out ${hoveredSkill === "Blockchain" ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100'}`}>
                         <p>
                             <span className="font-extrabold text-[22px] px-2 text-gray-700 dark:text-gray-400">
                                 Experienced Fullstack Blockchain Developer</span> with expertise in designing, deploying, and optimizing
@@ -120,14 +120,14 @@ export default function Skills() {
                     >
                         <h2 className="font-bold text-sm my-1">Programming Languages:</h2>
                         <p className="font-semibold">JavaScript (ES6+), TypeScript, HTML & CSS</p>
-                        <h2 className="font-bold  my-1">Node.js</h2>
+                        <h2 className="font-bold text-sm my-1">Node.js</h2>
                         <h2 className="font-bold text-sm my-1">Frontend & UI Development:</h2>
                         <p>React, Next.js, Material UI, Tailwind CSS</p>
                         <h2 className="font-bold text-sm my-1">Design & Prototyping:</h2>
                         <p> Figma, Photoshop, Illustrator, Canva</p>
                         <h2 className="font-bold text-sm my-1">Version Control & Collaboration:</h2>
                         <p> Git, GitHub, GitBucket, GitLab</p>
-                        <h1 className="text-[70px] font-bold text-right">Web.</h1>
+                        <h1 className="text-[70px] font-bold text-right">Web2.</h1>
                     </div>
                 </div>
 
