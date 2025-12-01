@@ -54,7 +54,7 @@ export default function Skills() {
                     onMouseLeave={() => setHoveredSkill(null)}
                 >
                     {/* Main Content */}
-                    <div className={`transition-all duration-350 ease-in-out ${hoveredSkill === "Blockchain" ? '-translate-y-full opacity-0' : 'opacity-100 translate-y-0 '}`}>
+                    <div className={`transition-all duration-350 ease-in-out ${hoveredSkill === "Blockchain" ? '-translate-y-full opacity-0' : 'opacity-100 translate-y-0'}`}>
                         <p>
                             <span className="font-extrabold text-[22px] px-2 text-gray-700 dark:text-gray-400">
                                 Experienced Fullstack Blockchain Developer</span> with expertise in designing, deploying, and optimizing
@@ -118,7 +118,7 @@ export default function Skills() {
 
                     {/* Tools Section - Hidden by default, slides up on hover */}
                     <div
-                        className={`absolute inset-0 bg-white dark:bg-white/5 backdrop-blur-md p-5 transition-transform duration-350 ease-in-out rounded-2xl text-[20px]
+                        className={`block absolute inset-0 bg-white dark:bg-white/5 backdrop-blur-md p-5 transition-transform duration-350 ease-in-out rounded-2xl text-[20px]
           ${hoveredSkill === "Frontend" ? 'translate-y-0' : 'translate-y-full'}`}
                     >
                         <h2 className="font-bold text-sm my-1">Programming Languages:</h2>
