@@ -224,10 +224,12 @@ const userData = {
     "https://drive.google.com/file/d/1KJduD0ZvcztDKwMaPUG6Y03DMnkP-QZr/view?usp=drive_link",
   socialLinks: {
     instagram: "https://instagram.com/tame.nation",
-    twitter: "https://twitter.com/tame_nation",
+    // twitter: "https://twitter.com/tame_nation",
+    twitter: "https://x.com/_akxka",
     linkedin: "https://linkedin.com/in/akorede-aboaba-306b3716a",
     github: "https://github.com/akorede12",
     facebook: "https://facebook.com/",
+    youtube: "www.youtube.com/@BlockchainAuthority",
   },
 };
 

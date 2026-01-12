@@ -404,7 +404,7 @@ const ProjectData = [
     },
     {
         id: '20',
-        name: 'Tokenizer Blog',
+        name: 'A Responsive Blog',
         description: 'A blog built with Next.js and Tailwind CSS',
         mainImage: '/blog1.png',
         labels: ["Frontend"],
@@ -420,7 +420,9 @@ const ProjectData = [
         videos: [
             '/blog1.png',
         ],
-        about: "The Tokenizer Blog Platform is a modern, feature-rich content management system built with Next.js, designed to showcase the company's innovations in asset tokenization and blockchain technology.This platform serves as the central hub for sharing insights, announcements, and educational content about tokenizing assets.",
+        about: "This Blog is a modern, feature-rich content management system built with Next.js, typescript and tailwindcss, designed to showcase a company's innovations.This platform serves as the central hub for sharing insights, announcements, and educational content.",
+
+        // about: "The Tokenizer Blog Platform is a modern, feature-rich content management system built with Next.js, designed to showcase the company's innovations in asset tokenization and blockchain technology.This platform serves as the central hub for sharing insights, announcements, and educational content about tokenizing assets.",
         links: {
             live: '',
             github: 'https://github.com/akorede12/Blog',
@@ -756,10 +758,15 @@ const ProjectData = [
         id: '6',
         name: 'BookingBox-Tx: Home, Hostel, Short-let Booking',
         description: 'Accomodation (Home, Hostel, Short-let) Booking onChain',
-        mainImage: "/bookingBoxHero.png",
+        mainImage: "/bbtx1.png",
         labels: ["Blockchain"],
         screenshots: [
-            '/bookingBoxHero.png',
+            '/bbtx1.png',
+            '/bbtx2.png',
+            '/bbtx3.png',
+            '/bbtx4.png',
+            '/bbtx5.png',
+            '/bbtx6.png',
         ],
         videos: [
             'https://youtu.be/zB7rabZADFQ',
@@ -768,7 +775,7 @@ const ProjectData = [
         links: {
             live: '',
             github: "https://github.com/Ciphers-Harmony/BookingBox-TX",
-            demo: '',
+            demo: 'https://youtu.be/zB7rabZADFQ',
         },
         technologies: [
             'Next.js',

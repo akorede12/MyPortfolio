@@ -46,11 +46,11 @@ export default function ProjectPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Project Header */}
                 <div className="mb-12">
-                    <div className="relative h-96 rounded-2xl overflow-hidden mb-6">
+                    <div className="relative h-auto md:h-96 rounded-2xl overflow-hidden mb-6">
                         <img
                             src={project.mainImage}
                             alt={project.name}
-                            className="w-full h-full object-cover"
+                            className="w-full h-auto md:h-full object-cover"
                         />
                     </div>
 
@@ -84,7 +84,7 @@ export default function ProjectPage() {
                                                 <img
                                                     src={screenshot}
                                                     alt={`${project.name} screenshot ${index + 1}`}
-                                                    className="w-full h-96 object-cover rounded-lg"
+                                                    className="w-full h-auto md:h-96 object-cover rounded-lg"
                                                 />
                                             </div>
                                         ))}
@@ -127,7 +127,7 @@ export default function ProjectPage() {
                         </section>
 
                         {/* Videos Section */}
-                        {project.videos.length > 0 && (
+                        {/* {project.videos.length > 0 && (
                             <section className="bg-white rounded-2xl shadow-sm p-6 dark:bg-gray-900">
                                 <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6">
                                     Videos
@@ -147,7 +147,16 @@ export default function ProjectPage() {
                                     ))}
                                 </div>
                             </section>
-                        )}
+                        )} */}
+                        <section className="bg-white rounded-2xl shadow-sm p-6 dark:bg-gray-900">
+
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+                                About Project
+                            </h2>
+                            <p className="text-gray-600 dark:text-gray-200 mb-6 leading-relaxed">
+                                {project.about}
+                            </p>
+                        </section>
 
                         {/* Contributors Section */}
                         <section className='flex flex-col gap-4  md:justify-between'>
@@ -201,27 +210,16 @@ export default function ProjectPage() {
                     <div className="space-y-8">
                         {/* About Project & Links */}
                         <section className="bg-white rounded-2xl shadow-sm p-6 dark:bg-gray-900">
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+                            {/* <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
                                 About Project
                             </h2>
                             <p className="text-gray-600 dark:text-gray-200 mb-6 leading-relaxed">
                                 {project.about}
-                            </p>
+                            </p> */}
 
                             <div className="space-y-3">
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Project Links</h3>
                                 <div className="flex flex-col space-y-2">
-                                    <Link
-                                        href={project.links.live}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center px-4 py-2 rounded-lg transition-colors duration-200 dark:bg-blue-700 dark:hover:bg-blue-600 dark:text-gray-100 text-gray-100 bg-blue-500 hover:bg-blue-700"
-                                    >
-                                        <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                        </svg>
-                                        Live Demo
-                                    </Link>
                                     <Link
                                         href={project.links.github}
                                         target="_blank"
@@ -233,6 +231,19 @@ export default function ProjectPage() {
                                         </svg>
                                         GitHub Repository
                                     </Link>
+                                    {project.links.live && (
+                                        <Link
+                                            href={project.links.live}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center px-4 py-2 rounded-lg transition-colors duration-200 dark:bg-blue-700 dark:hover:bg-blue-600 dark:text-gray-100 text-gray-100 bg-blue-500 hover:bg-blue-700"
+                                        >
+                                            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            </svg>
+                                            Live Demo
+                                        </Link>
+                                    )}
                                     {project.links.demo && (
                                         <Link
                                             href={project.links.demo}
