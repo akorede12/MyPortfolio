@@ -51,6 +51,57 @@ const sampleProject = {
 
 const ProjectData = [
     {
+        id: '24',
+        name: 'The Pharma Gaurd AI',
+        description: 'Empowering Drug Safety with AI and Starknet',
+        mainImage: '/pg3.png',
+        labels: ["Blockchain, AI"],
+        screenshots: [
+            '/pg1.png',
+            '/pg2.png',
+            '/pg3.png',
+            '/pg4.png',
+            '/pg5.png',
+        ],
+        videos: [
+            '/pg4.png',
+        ],
+        about: "💊 Pharma Guard AI Empowering Drug Safety with AI and Starknet. Pharma Guard AI is a decentralized health- tech solution built for the RE{ DEFINE } Starknet Hackathon. It provides a verifiable, immutable audit trail for drug interaction safety checks, ensuring patient safety through AI - driven insights and blockchain accountability. Network: Starknet Sepolia Testnet. What is Pharma Guard AI ? Adverse drug interactions are a leading cause of preventable hospitalizations.Medical records are often fragmented, making it hard to track safety history.Pharma Guard AI solves this by: AI Risk Assessment: Using an n8n - orchestrated AI agent to analyze drug combinations. Immutable Logging: Committing every safety check to Starknet to create a permanent, tamper - proof audit trail.Provider Reputation: A Soulbound Token(SBT) system that rewards medical providers for consistent safety logging. 🛠️ Technical Stack Smart Contracts: Cairo 2.0(deployed on Starknet Sepolia). Frontend: Next.js, Scaffold - Stark 2, Starknet - React. Wallet & Identity: Braavos(Account Abstraction) + Starknet ID(moses.stark).Orchestration: n8n for AI agent logic.",
+        links: {
+            live: 'https://pharma-guard-ai-nextjs.vercel.app/',
+            github: 'https://github.com/BeeAlmighty/pharma-guard-ai',
+            demo: 'https://youtube.com/shorts/PkpFO9c__Fs?si=UkLgDQfoquqMT6v8',
+        },
+        technologies: [
+            'Next.js',
+            'TypeScript',
+            'Tailwind CSS',
+            'Node.js',
+            'Foundry',
+            'Cairo',
+            'Starknet',
+        ],
+        contributions: [
+            'Built smart contract to log every drug interaction and safety check',
+            'Built smart contract to reward medical providers for consistent safety logging, using soulbound tokens',
+            'Built smart contract to register Pharmacists',
+            'Built, tested, and deployed Cairo Starknet Smart Contracts',
+            'Integrated Cairo Smart contracts to Nextjs frontend Dapp using Scaffold-Stark 2 and Starknet-react'
+        ],
+        contributors: [
+            {
+                name: 'Akorede',
+                role: 'Blockchain Developer(Starknet)',
+                avatar: '/Me2.jpg',
+            },
+            {
+                name: 'Moses Maduakonam',
+                role: 'Pharmarcist, Web3 Developer',
+                avatar: '/user.png',
+            },
+        ],
+    },
+    {
         id: '1',
         name: 'The Open Protocol',
         description: 'hybrid trading infrastructure',

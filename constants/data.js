@@ -9,6 +9,11 @@ const userData = {
   certifications: "https://drive.google.com/drive/folders/1dlMuOoJWXkSL-XAlOJwlA2UC-m2APpBP?usp=drive_link",
   projects: [
     {
+      title: "Pharma Guard AI",
+      link: 'https://pharma-guard-ai-nextjs.vercel.app/',
+      imgUrl: "/pg3.png"
+    },
+    {
       title: "TheOpenProtocol",
       link: "https://www.theopenprotocol.com/",
       imgUrl: "/topx.png"

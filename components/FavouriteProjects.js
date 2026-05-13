@@ -34,34 +34,40 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-8 lg:-mt-8 pb-40 px-4 md:px-0">
           {/* Single card */}
           <ProjectCard
+            title="Pharma Guard AI"
+            projectId="24"
+            imgUrl="/pg3.png"
+            number="1"
+          />
+          <ProjectCard
             title="The Open Protocol"
             projectId="1"
             imgUrl="/topx.png"
-            number="1"
+            number="2"
           />
           <ProjectCard
             title="APPWARE"
             projectId="3"
             imgUrl="/AppwareHero.png"
-            number="2"
+            number="3"
           />
           <ProjectCard
             title="SMART INVEST"
             projectId="2"
             imgUrl="/SmartInvestHero.png"
-            number="3"
+            number="4"
           />
           <ProjectCard
             title="BoundlessPay - Staking & Bridging Platform"
             projectId="5"
             imgUrl="/bpayHero.png"
-            number="4"
+            number="5"
           />
           <ProjectCard
             title="OnChain Votes"
             projectId="11"
             imgUrl="/OnChainVotes.png"
-            number="5"
+            number="6"
           />
         </div>
       </div>
