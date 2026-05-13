@@ -6,9 +6,8 @@ import { ProjectCard } from "./ProjectCard";
 export default function Projects() {
 
   const [activeFilter, setActiveFilter] = useState("All");
-
+  
   const filters = ["All", "Blockchain", "Frontend", "A.I"];
-
   const filteredProjects = activeFilter === "All"
     ? ProjectData
     : ProjectData.filter(proj => proj.labels.includes(activeFilter));

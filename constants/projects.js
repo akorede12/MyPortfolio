@@ -55,7 +55,7 @@ const ProjectData = [
         name: 'The Pharma Gaurd AI',
         description: 'Empowering Drug Safety with AI and Starknet',
         mainImage: '/pg3.png',
-        labels: ["Blockchain, AI"],
+        labels: ["Blockchain", "A.I"],
         screenshots: [
             '/pg1.png',
             '/pg2.png',
